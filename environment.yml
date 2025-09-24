@@ -1,0 +1,14 @@
+name: claims_outcomes_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - pyarrow
+  - joblib
+  - pyyaml
+  - matplotlib
+  - openpyxl
+  - scipy
