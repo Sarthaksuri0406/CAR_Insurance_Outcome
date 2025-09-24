@@ -1,0 +1,8 @@
+Claim Count = COUNTROWS('facts_claims_scored')
+Observed Claim Rate = AVERAGE('facts_claims_scored'[has_claim])
+Average Predicted Probability = AVERAGE('facts_claims_scored'[p_claim])
+Lift Top 10 Percent = 
+VAR N = ROUNDUP(COUNTROWS('facts_claims_scored')*0.1,0)
+VAR T = TOPN(N,'facts_claims_scored','facts_claims_scored'[p_claim],DESC)
+VAR R = AVERAGEX(T,'facts_claims_scored'[has_claim])
+RETURN DIVIDE(R,AVERAGE('facts_claims_scored'[has_claim]))

@@ -1,0 +1,19 @@
+{
+  "target": "has_claim",
+  "drop": [
+    "claim_id"
+  ],
+  "categorical": [
+    "gender",
+    "marital_status",
+    "region",
+    "vehicle_segment"
+  ],
+  "numerical": [
+    "driver_age",
+    "vehicle_age",
+    "annual_premium",
+    "credit_score",
+    "previous_claims"
+  ]
+}

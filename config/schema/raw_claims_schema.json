@@ -1,0 +1,72 @@
+{
+  "columns": [
+    {
+      "name": "claim_id",
+      "dtype": "int64",
+      "nullable": false
+    },
+    {
+      "name": "policy_id",
+      "dtype": "int64",
+      "nullable": false
+    },
+    {
+      "name": "accident_date",
+      "dtype": "datetime64[ns]",
+      "nullable": false
+    },
+    {
+      "name": "driver_age",
+      "dtype": "float64",
+      "nullable": true
+    },
+    {
+      "name": "vehicle_age",
+      "dtype": "float64",
+      "nullable": true
+    },
+    {
+      "name": "annual_premium",
+      "dtype": "float64",
+      "nullable": true
+    },
+    {
+      "name": "credit_score",
+      "dtype": "float64",
+      "nullable": true
+    },
+    {
+      "name": "gender",
+      "dtype": "string",
+      "nullable": true
+    },
+    {
+      "name": "marital_status",
+      "dtype": "string",
+      "nullable": true
+    },
+    {
+      "name": "region",
+      "dtype": "string",
+      "nullable": true
+    },
+    {
+      "name": "vehicle_segment",
+      "dtype": "string",
+      "nullable": true
+    },
+    {
+      "name": "previous_claims",
+      "dtype": "int64",
+      "nullable": true
+    },
+    {
+      "name": "has_claim",
+      "dtype": "int64",
+      "nullable": false
+    }
+  ],
+  "primary_key": [
+    "claim_id"
+  ]
+}

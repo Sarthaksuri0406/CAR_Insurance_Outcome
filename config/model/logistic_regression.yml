@@ -1,0 +1,11 @@
+model:
+  type: logistic_regression
+  solver: lbfgs
+  penalty: l2
+  C: 1.0
+  class_weight: balanced
+  max_iter: 1000
+  random_state: 42
+calibration:
+  enabled: true
+  method: isotonic

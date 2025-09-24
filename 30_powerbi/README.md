@@ -1,0 +1,1 @@
+Open ClaimsOutcomes.pbix and bind to data/06_bi_exports

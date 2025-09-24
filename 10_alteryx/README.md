@@ -1,0 +1,1 @@
+Open workflows in Alteryx and set inputs from data/00_raw and outputs to data/02_interim

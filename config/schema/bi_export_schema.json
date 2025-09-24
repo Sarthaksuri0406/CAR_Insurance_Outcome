@@ -1,0 +1,23 @@
+{
+  "facts_claims_scored": [
+    "claim_id",
+    "policy_id",
+    "accident_date",
+    "has_claim",
+    "p_claim",
+    "decision_at_threshold",
+    "risk_bucket",
+    "score_dt"
+  ],
+  "dim_policy": [
+    "policy_id",
+    "records"
+  ],
+  "dim_time": [
+    "date",
+    "year",
+    "quarter",
+    "month",
+    "day"
+  ]
+}

@@ -1,0 +1,1 @@
+Is High Risk = IF('facts_claims_scored'[p_claim] >= 0.5, 1, 0)

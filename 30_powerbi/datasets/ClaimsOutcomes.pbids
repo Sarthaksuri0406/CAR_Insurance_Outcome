@@ -1,0 +1,14 @@
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "file",
+        "address": {
+          "path": "data/06_bi_exports/facts_claims_scored.csv"
+        }
+      },
+      "mode": "Import"
+    }
+  ]
+}
